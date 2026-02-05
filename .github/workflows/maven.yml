@@ -42,14 +42,19 @@ jobs:
           path: EcommerceDemo/target/surefire-reports/
           retention-days: 30
 
-      - name: Publish TestNG results (Surefire XML)
+      - name: Publish Test Results
         if: ${{ always() }}
         uses: dorny/test-reporter@v2
         with:
           name: Test Results
-          path: EcommerceDemo/target/surefire-reports/*.xml
+          path: EcommerceDemo/target/surefire-reports/TEST-*.xml
           reporter: java-junit
           fail-on-error: "false"
+          
+      - name: List surefire reports
+        if: ${{ always() }}
+        run: |
+          ls -la EcommerceDemo/target/surefire-reports || true
 
       - name: Build with Maven
         run: mvn -B package -f EcommerceDemo/pom.xml -DskipTests
