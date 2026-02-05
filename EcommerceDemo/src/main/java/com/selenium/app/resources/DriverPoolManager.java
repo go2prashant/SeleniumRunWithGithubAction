@@ -10,8 +10,13 @@ public class DriverPoolManager {
     private WebDriver driver;
 
     public WebDriver getDriver() {
-        return driver;
-    }
+        if (driver == null) {
+            String browser = System.getProperty("browser", "chrome");
+            startBrowser(browser);
+        }
+    return driver;
+ }
+
 
     public void startBrowser(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
@@ -35,14 +40,20 @@ public class DriverPoolManager {
     }
 
     private void createChromeDriver() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--headless=new");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--window-size=1920,1080");
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments("--remote-allow-origins=*");
+
+    boolean headless = Boolean.parseBoolean(System.getProperty("headless", "true"));
+        if (headless) {
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--window-size=1920,1080");
+        }
+
         driver = new ChromeDriver(options);
     }
+
 
     public void stopDriver() {
         if (driver != null) {
@@ -52,6 +63,8 @@ public class DriverPoolManager {
     }
 
     private void setUpFullScreen() {
-        driver.manage().window().maximize();
+        if (driver != null) {
+            driver.manage().window().maximize();
+        }
     }
 }

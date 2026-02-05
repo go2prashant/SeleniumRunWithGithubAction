@@ -19,7 +19,8 @@ public class HomePageTest extends BaseTest {
 
     @BeforeClass
     public void setupTest() {
-        this.driver = driverManager.getDriver();
+        super.setupTest();
+        driver = driverManager.getDriver();
         homePage = new HomePage(driver);
         testUtils = new TestUtils(driver);
         customUtils= new CustomUtils(driver);

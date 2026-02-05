@@ -22,7 +22,8 @@ public class RegisterUserTest extends BaseTest {
     CustomUtils customUtils;
     @BeforeClass
     public void setupTest() {
-        this.driver = driverManager.getDriver();
+        super.setupTest();
+        driver = driverManager.getDriver();
         homePage = new HomePage(driver);
         registerPage = new RegisterPage(driver);
         myAccountPage = new MyAccountPage(driver);
