@@ -1,0 +1,762 @@
+17:40:40.898 [main]INFO  HomePage - Navigating to: [https://ecommerce-playground.lambdatest.io/]
+17:40:45.424 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/
+17:40:45.429 [main]INFO  HomePage - Validating Title to Have: [Your Store]
+17:40:45.451 [main]INFO  HomePage - Validating: Home Is Equal Home
+17:40:45.466 [main]INFO  HomePage - Validating: Special Is Equal Special
+17:40:45.480 [main]INFO  HomePage - Validating: Hot Is Equal Hot
+17:40:45.494 [main]INFO  HomePage - Validating: Blog Is Equal Blog
+17:40:45.541 [main]INFO  HomePage - Validating: Mega Menu Is Equal Mega Menu
+17:40:45.561 [main]INFO  HomePage - Validating: AddOns Is Equal AddOns
+17:40:45.584 [main]INFO  HomePage - Validating: Featured Is Equal Featured
+17:40:45.608 [main]INFO  HomePage - Validating: My account Is Equal My account
+17:40:45.617 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:40:45.712 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:40:45.772 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:40:45.799 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:40:48.004 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+17:40:48.026 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+17:40:48.046 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]] Is Clickable within [30] Seconds 
+17:40:48.084 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+17:40:50.831 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+17:40:50.844 [main]INFO  TestUtils - Expecting Text [Login] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(1)]]
+17:40:50.863 [main]INFO  TestUtils - Expecting Text [Register] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(2)]]
+17:40:50.882 [main]INFO  TestUtils - Expecting Text [Forgotten Password] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(3)]]
+17:40:50.900 [main]INFO  TestUtils - Expecting Text [My Account] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(4)]]
+17:40:50.922 [main]INFO  TestUtils - Expecting Text [Address Book] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(5)]]
+17:40:50.941 [main]INFO  TestUtils - Expecting Text [Wish List] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(6)]]
+17:40:50.960 [main]INFO  TestUtils - Expecting Text [Order History] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(7)]]
+17:40:50.980 [main]INFO  TestUtils - Expecting Text [Recurring payments] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(9)]]
+17:40:51.000 [main]INFO  TestUtils - Expecting Text [Reward Points] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(10)]]
+17:40:51.019 [main]INFO  TestUtils - Expecting Text [Returns] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(11)]]
+17:40:51.042 [main]INFO  TestUtils - Expecting Text [Transactions] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(12)]]
+17:40:51.064 [main]INFO  TestUtils - Expecting Text [Downloads] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(8)]]
+17:40:51.088 [main]INFO  TestUtils - Expecting Text [Newsletter] from element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [class] .list-group-item:nth-of-type(13)]]
+17:40:51.099 [main]INFO  RegisterPage - Entering Details On Register Menu
+17:40:51.109 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-firstname']]]
+17:40:51.131 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-firstname']]] Text is :[MAHBUB]
+17:40:51.208 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-lastname']]]
+17:40:51.234 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-lastname']]] Text is :[TOM]
+17:40:51.312 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-email']]]
+17:40:51.334 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+17:40:51.420 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-telephone']]]
+17:40:51.443 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-telephone']]] Text is :[+8882319324876921]
+17:40:51.534 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-password']]]
+17:40:51.584 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+17:40:51.676 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-confirm']]]
+17:40:51.704 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-confirm']]] Text is :[1234567889]
+17:40:51.803 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [for='input-agree']]] Is Clickable within [30] Seconds 
+17:40:51.843 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: [for='input-agree']]]
+17:40:51.899 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> css selector: div#content > form[method='post'] input[value='Continue']]]
+17:40:52.615 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:40:52.632 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]] Is Clickable within [30] Seconds 
+17:40:52.662 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:40:52.692 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:40:52.714 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:40:53.569 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+17:40:53.579 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+17:40:53.607 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div[@class='row']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']]]
+17:40:53.627 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+17:40:53.651 [main]INFO  TestUtils - [[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]****** :::href Value Matches The Expected Value Of: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+17:40:53.658 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-email']]]
+17:40:53.679 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-password']]]
+17:40:53.702 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+17:40:53.723 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-email']]]
+17:40:53.773 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+17:40:53.861 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-password']]]
+17:40:53.913 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+17:40:53.984 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (5f2638a759fc81635272b4da153fb16a)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+17:40:58.644 [main]INFO  TestUtils - Test Paused : [1] Seconds
+17:40:59.649 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+17:40:59.910 [main]INFO  CustomUtils - Click on [My Account] from User Menu
+17:41:00.476 [main]INFO  CustomUtils - Click on [Edit Account] from User Menu
+17:41:04.144 [main]INFO  CustomUtils - Click on [Password] from User Menu
+17:41:06.003 [main]INFO  CustomUtils - Click on [Address Book] from User Menu
+17:41:07.379 [main]INFO  CustomUtils - Click on [Wish List] from User Menu
+17:41:08.474 [main]INFO  CustomUtils - Click on [Notification] from User Menu
+17:41:13.463 [main]INFO  CustomUtils - Click on [Order History] from User Menu
+17:41:13.470 [main]INFO  CustomUtils - Click on [Downloads] from User Menu
+17:41:13.475 [main]INFO  CustomUtils - Click on [Recurring payments] from User Menu
+17:41:13.480 [main]INFO  CustomUtils - Click on [Reward Points] from User Menu
+17:41:13.484 [main]INFO  CustomUtils - Click on [Returns] from User Menu
+17:41:13.489 [main]INFO  CustomUtils - Click on [Transactions] from User Menu
+17:41:13.494 [main]INFO  CustomUtils - Click on [Newsletter] from User Menu
+17:41:13.499 [main]INFO  CustomUtils - Click on [Logout] from User Menu
+17:41:13.503 [main]INFO  TestUtils - Test Paused : [2] Seconds
+17:42:42.695 [main]INFO  HomePage - Navigating to: [https://ecommerce-playground.lambdatest.io/]
+17:42:46.091 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/
+17:42:46.097 [main]INFO  HomePage - Validating Title to Have: [Your Store]
+17:42:46.117 [main]INFO  HomePage - Validating: Home Is Equal Home
+17:42:46.131 [main]INFO  HomePage - Validating: Special Is Equal Special
+17:42:46.145 [main]INFO  HomePage - Validating: Hot Is Equal Hot
+17:42:46.165 [main]INFO  HomePage - Validating: Blog Is Equal Blog
+17:42:46.179 [main]INFO  HomePage - Validating: Mega Menu Is Equal Mega Menu
+17:42:46.199 [main]INFO  HomePage - Validating: AddOns Is Equal AddOns
+17:42:46.215 [main]INFO  HomePage - Validating: Featured Is Equal Featured
+17:42:46.233 [main]INFO  HomePage - Validating: My account Is Equal My account
+17:42:46.240 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:42:46.273 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:42:46.336 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:42:46.360 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:42:48.387 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+17:42:48.415 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+17:42:48.436 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]] Is Clickable within [30] Seconds 
+17:42:48.469 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+17:42:50.456 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+17:42:50.471 [main]INFO  TestUtils - Expecting Text [Login] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(1)]]
+17:42:50.490 [main]INFO  TestUtils - Expecting Text [Register] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(2)]]
+17:42:50.509 [main]INFO  TestUtils - Expecting Text [Forgotten Password] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(3)]]
+17:42:50.527 [main]INFO  TestUtils - Expecting Text [My Account] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(4)]]
+17:42:50.546 [main]INFO  TestUtils - Expecting Text [Address Book] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(5)]]
+17:42:50.567 [main]INFO  TestUtils - Expecting Text [Wish List] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(6)]]
+17:42:50.598 [main]INFO  TestUtils - Expecting Text [Order History] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(7)]]
+17:42:50.618 [main]INFO  TestUtils - Expecting Text [Recurring payments] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(9)]]
+17:42:50.638 [main]INFO  TestUtils - Expecting Text [Reward Points] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(10)]]
+17:42:50.658 [main]INFO  TestUtils - Expecting Text [Returns] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(11)]]
+17:42:50.677 [main]INFO  TestUtils - Expecting Text [Transactions] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(12)]]
+17:42:50.712 [main]INFO  TestUtils - Expecting Text [Downloads] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(8)]]
+17:42:50.733 [main]INFO  TestUtils - Expecting Text [Newsletter] from element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [class] .list-group-item:nth-of-type(13)]]
+17:42:50.744 [main]INFO  RegisterPage - Entering Details On Register Menu
+17:42:50.752 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-firstname']]]
+17:42:50.769 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-firstname']]] Text is :[MAHBUB]
+17:42:50.833 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-lastname']]]
+17:42:50.857 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-lastname']]] Text is :[TOM]
+17:42:50.925 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-email']]]
+17:42:50.944 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+17:42:51.024 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-telephone']]]
+17:42:51.049 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-telephone']]] Text is :[+8882319324876921]
+17:42:51.131 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-password']]]
+17:42:51.153 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+17:42:51.227 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-confirm']]]
+17:42:51.251 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-confirm']]] Text is :[1234567889]
+17:42:51.324 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [for='input-agree']]] Is Clickable within [30] Seconds 
+17:42:51.355 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: [for='input-agree']]]
+17:42:51.421 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> css selector: div#content > form[method='post'] input[value='Continue']]]
+17:42:52.069 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:42:52.101 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]] Is Clickable within [30] Seconds 
+17:42:52.129 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+17:42:52.153 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:42:52.171 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+17:42:52.683 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+17:42:52.694 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+17:42:52.716 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div[@class='row']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']]]
+17:42:52.733 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+17:42:52.753 [main]INFO  TestUtils - [[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]****** :::href Value Matches The Expected Value Of: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+17:42:52.759 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-email']]]
+17:42:52.777 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-password']]]
+17:42:52.796 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+17:42:52.814 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-email']]]
+17:42:52.854 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+17:42:52.921 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-password']]]
+17:42:52.964 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+17:42:53.038 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (9d70b3bb50332339dbed7357ee8e2ae9)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+17:42:54.704 [main]INFO  TestUtils - Test Paused : [1] Seconds
+17:42:55.717 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+17:42:55.843 [main]INFO  CustomUtils - Click on [My Account] from User Menu
+17:42:55.951 [main]INFO  CustomUtils - Click on [Edit Account] from User Menu
+17:42:56.043 [main]INFO  CustomUtils - Click on [Password] from User Menu
+17:42:56.145 [main]INFO  CustomUtils - Click on [Address Book] from User Menu
+17:42:56.254 [main]INFO  CustomUtils - Click on [Wish List] from User Menu
+17:42:56.374 [main]INFO  CustomUtils - Click on [Notification] from User Menu
+17:42:56.505 [main]INFO  CustomUtils - Click on [Order History] from User Menu
+17:42:56.632 [main]INFO  CustomUtils - Click on [Downloads] from User Menu
+17:42:56.768 [main]INFO  CustomUtils - Click on [Recurring payments] from User Menu
+17:42:56.895 [main]INFO  CustomUtils - Click on [Reward Points] from User Menu
+17:42:57.042 [main]INFO  CustomUtils - Click on [Returns] from User Menu
+17:42:57.186 [main]INFO  CustomUtils - Click on [Transactions] from User Menu
+17:42:57.311 [main]INFO  CustomUtils - Click on [Newsletter] from User Menu
+17:42:57.456 [main]INFO  CustomUtils - Click on [Logout] from User Menu
+17:42:57.580 [main]INFO  TestUtils - Test Paused : [2] Seconds
+23:31:05.943 [main]DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+23:31:05.949 [main]DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+23:31:05.949 [main]DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+23:31:05.954 [main]DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1e044120
+23:31:05.971 [main]DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+23:31:05.971 [main]DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 18
+23:31:05.972 [main]DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+23:31:05.972 [main]DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+23:31:05.973 [main]DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+23:31:05.973 [main]DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+23:31:05.974 [main]DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:91) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:43) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:124) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:115) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:92) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43) ~[selenium-chromium-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at com.selenium.app.resources.DriverPoolManager.createChromeDriver(DriverPoolManager.java:41) ~[classes/:?]
+	at com.selenium.app.resources.DriverPoolManager.startBrowser(DriverPoolManager.java:18) ~[classes/:?]
+	at com.selenium.app.baseConfiguration.BaseTest.setupTest(BaseTest.java:17) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.7.0.jar:7.7.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+23:31:05.995 [main]DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+23:31:05.997 [main]DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4b44655e
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:91) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:43) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:124) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:115) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:92) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43) ~[selenium-chromium-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at com.selenium.app.resources.DriverPoolManager.createChromeDriver(DriverPoolManager.java:41) ~[classes/:?]
+	at com.selenium.app.resources.DriverPoolManager.startBrowser(DriverPoolManager.java:18) ~[classes/:?]
+	at com.selenium.app.baseConfiguration.BaseTest.setupTest(BaseTest.java:17) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.7.0.jar:7.7.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+23:31:06.001 [main]DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+23:31:06.003 [main]DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+23:31:06.003 [main]DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+23:31:06.003 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Rumi\AppData\Local\Temp (java.io.tmpdir)
+23:31:06.003 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+23:31:06.005 [main]DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+23:31:06.006 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+23:31:06.006 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+23:31:06.007 [main]DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+23:31:06.007 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+23:31:06.012 [main]DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+23:31:06.025 [main]DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23:31:06.025 [main]DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23:31:06.136 [main]DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23:31:06.136 [main]DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23:31:06.159 [main]DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23:31:06.167 [main]DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+23:31:06.175 [main]DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+23:31:06.175 [main]DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+23:31:06.186 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@24e8de5c
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4925f4f5
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1ad926d3
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3a43d133
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@39ce27f2
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5f2afe62
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@c96a4ea
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@28782602
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@60c16548
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@68105edc
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@511816c0
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@38b972d7
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5339bbad
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3935e9a8
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@288a4658
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5b56b654
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@452c8a40
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@534243e4
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@29006752
+23:31:06.188 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@470a9030
+23:31:06.201 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@66d57c1b
+23:31:06.201 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@27494e46
+23:31:06.202 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@d59970a
+23:31:06.203 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1e411d81
+23:31:06.203 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@53b98ff6
+23:31:06.204 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e6fd0b9
+23:31:06.205 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7fcff1b9
+23:31:06.205 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@697446d4
+23:31:06.206 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@76adb233
+23:31:06.207 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@36074e47
+23:31:06.207 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@36453307
+23:31:06.209 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7dcc91fd
+23:31:06.222 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+23:31:06.222 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+23:31:06.222 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+23:31:06.222 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+23:31:06.223 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23:31:06.236 [main]DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+23:31:06.236 [main]DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+23:31:06.236 [main]DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+23:31:07.709 [Forwarding newSession on session null to remote]DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 40016 (auto-detected)
+23:31:07.711 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+23:31:07.711 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+23:31:07.721 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+23:31:07.722 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23:31:07.729 [Forwarding newSession on session null to remote]DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 34:6f:24:ff:fe:2d:4d:91 (auto-detected)
+23:31:07.772 [AsyncHttpClient-1-2]DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+23:31:07.773 [AsyncHttpClient-1-2]DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+23:31:07.773 [AsyncHttpClient-1-2]DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@54ffe1af
+23:31:07.785 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+23:31:07.785 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+23:31:07.785 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+23:31:07.785 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+23:31:07.785 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+23:31:08.631 [AsyncHttpClient-1-2]DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+23:31:08.780 [main]DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x29bc969b1a09f3b4
+23:31:09.007 [main]INFO  HomePage - Navigating to: [https://ecommerce-playground.lambdatest.io/]
+23:31:10.756 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/
+23:31:10.776 [main]INFO  HomePage - Validating Title to Have: [Your Store]
+23:31:10.837 [main]INFO  HomePage - Validating: Home Is Equal Home
+23:31:10.897 [main]INFO  HomePage - Validating: Special Is Equal Special
+23:31:10.943 [main]INFO  HomePage - Validating: Hot Is Equal Hot
+23:31:10.982 [main]INFO  HomePage - Validating: Blog Is Equal Blog
+23:31:11.020 [main]INFO  HomePage - Validating: Mega Menu Is Equal Mega Menu
+23:31:11.060 [main]INFO  HomePage - Validating: AddOns Is Equal AddOns
+23:31:11.093 [main]INFO  HomePage - Validating: Featured Is Equal Featured
+23:31:11.131 [main]INFO  HomePage - Validating: My account Is Equal My account
+23:31:11.147 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:31:11.210 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:31:11.280 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:31:11.346 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:31:12.033 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+23:31:12.080 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+23:31:12.118 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]] Is Clickable within [30] Seconds 
+23:31:12.187 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+23:31:12.814 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+23:31:12.858 [main]INFO  TestUtils - Expecting Text [Login] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(1)]]
+23:31:12.896 [main]INFO  TestUtils - Expecting Text [Register] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(2)]]
+23:31:12.929 [main]INFO  TestUtils - Expecting Text [Forgotten Password] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(3)]]
+23:31:12.989 [main]INFO  TestUtils - Expecting Text [My Account] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(4)]]
+23:31:13.049 [main]INFO  TestUtils - Expecting Text [Address Book] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(5)]]
+23:31:13.105 [main]INFO  TestUtils - Expecting Text [Wish List] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(6)]]
+23:31:13.180 [main]INFO  TestUtils - Expecting Text [Order History] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(7)]]
+23:31:13.248 [main]INFO  TestUtils - Expecting Text [Recurring payments] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(9)]]
+23:31:13.304 [main]INFO  TestUtils - Expecting Text [Reward Points] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(10)]]
+23:31:13.361 [main]INFO  TestUtils - Expecting Text [Returns] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(11)]]
+23:31:13.432 [main]INFO  TestUtils - Expecting Text [Transactions] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(12)]]
+23:31:13.488 [main]INFO  TestUtils - Expecting Text [Downloads] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(8)]]
+23:31:13.549 [main]INFO  TestUtils - Expecting Text [Newsletter] from element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [class] .list-group-item:nth-of-type(13)]]
+23:31:13.588 [main]INFO  RegisterPage - Entering Details On Register Menu
+23:31:13.613 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-firstname']]]
+23:31:13.676 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-firstname']]] Text is :[MAHBUB]
+23:31:13.912 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-lastname']]]
+23:31:13.987 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-lastname']]] Text is :[TOM]
+23:31:14.169 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-email']]]
+23:31:14.209 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+23:31:14.346 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-telephone']]]
+23:31:14.386 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-telephone']]] Text is :[+8882319324876921]
+23:31:14.532 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-password']]]
+23:31:14.571 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+23:31:14.745 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-confirm']]]
+23:31:14.785 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-confirm']]] Text is :[1234567889]
+23:31:14.897 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [for='input-agree']]] Is Clickable within [30] Seconds 
+23:31:14.958 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: [for='input-agree']]]
+23:31:15.037 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> css selector: div#content > form[method='post'] input[value='Continue']]]
+23:31:15.882 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:31:15.920 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]] Is Clickable within [30] Seconds 
+23:31:15.973 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:31:16.005 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:31:16.038 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:31:16.416 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+23:31:16.427 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+23:31:16.470 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div[@class='row']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']]]
+23:31:16.509 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+23:31:16.556 [main]INFO  TestUtils - [[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]****** :::href Value Matches The Expected Value Of: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+23:31:16.565 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-email']]]
+23:31:16.597 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-password']]]
+23:31:16.628 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+23:31:16.664 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-email']]]
+23:31:16.733 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+23:31:16.901 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-password']]]
+23:31:16.964 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+23:31:17.110 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (cf8c1c3223be091bd90f4d294dbef920)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+23:31:17.228 [main]INFO  TestUtils - Test Paused : [1] Seconds
+23:31:18.243 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+23:31:18.550 [main]INFO  CustomUtils - Click on [My Account] from User Menu
+23:31:18.836 [main]INFO  CustomUtils - Click on [Edit Account] from User Menu
+23:31:19.054 [main]INFO  CustomUtils - Click on [Password] from User Menu
+23:31:19.279 [main]INFO  CustomUtils - Click on [Address Book] from User Menu
+23:31:19.459 [main]INFO  CustomUtils - Click on [Wish List] from User Menu
+23:31:19.645 [main]INFO  CustomUtils - Click on [Notification] from User Menu
+23:31:19.854 [main]INFO  CustomUtils - Click on [Order History] from User Menu
+23:31:20.009 [main]INFO  CustomUtils - Click on [Downloads] from User Menu
+23:31:20.249 [main]INFO  CustomUtils - Click on [Recurring payments] from User Menu
+23:31:20.426 [main]INFO  CustomUtils - Click on [Reward Points] from User Menu
+23:31:20.688 [main]INFO  CustomUtils - Click on [Returns] from User Menu
+23:31:20.863 [main]INFO  CustomUtils - Click on [Transactions] from User Menu
+23:31:21.009 [main]INFO  CustomUtils - Click on [Newsletter] from User Menu
+23:31:21.163 [main]INFO  CustomUtils - Click on [Logout] from User Menu
+23:31:21.327 [main]INFO  TestUtils - Test Paused : [2] Seconds
+23:31:23.343 [AsyncHttpClient-1-4]TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+23:51:59.185 [main]DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+23:51:59.202 [main]DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+23:51:59.202 [main]DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+23:51:59.211 [main]DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1e044120
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 18
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+23:51:59.234 [main]DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:91) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:43) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:124) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:115) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:92) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43) ~[selenium-chromium-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at com.selenium.app.resources.DriverPoolManager.createChromeDriver(DriverPoolManager.java:41) ~[classes/:?]
+	at com.selenium.app.resources.DriverPoolManager.startBrowser(DriverPoolManager.java:18) ~[classes/:?]
+	at com.selenium.app.baseConfiguration.BaseTest.setupTest(BaseTest.java:17) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.7.0.jar:7.7.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+23:51:59.252 [main]DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+23:51:59.252 [main]DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5e4c8041
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:91) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:43) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:124) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:115) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:92) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89) ~[selenium-remote-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43) ~[selenium-chromium-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.11.0.jar:?]
+	at com.selenium.app.resources.DriverPoolManager.createChromeDriver(DriverPoolManager.java:41) ~[classes/:?]
+	at com.selenium.app.resources.DriverPoolManager.startBrowser(DriverPoolManager.java:18) ~[classes/:?]
+	at com.selenium.app.baseConfiguration.BaseTest.setupTest(BaseTest.java:17) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.7.0.jar:7.7.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Rumi\AppData\Local\Temp (java.io.tmpdir)
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+23:51:59.261 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+23:51:59.261 [main]DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+23:51:59.268 [main]DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+23:51:59.268 [main]DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+23:51:59.301 [main]DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23:51:59.301 [main]DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23:51:59.736 [main]DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23:51:59.736 [main]DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23:51:59.752 [main]DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23:51:59.794 [main]DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+23:51:59.810 [main]DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+23:51:59.810 [main]DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+23:51:59.840 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@24e8de5c
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4925f4f5
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1ad926d3
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3a43d133
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@39ce27f2
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5f2afe62
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@c96a4ea
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@28782602
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@60c16548
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@68105edc
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@511816c0
+23:51:59.845 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@38b972d7
+23:51:59.858 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5339bbad
+23:51:59.860 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3935e9a8
+23:51:59.860 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@288a4658
+23:51:59.860 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5b56b654
+23:51:59.860 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@452c8a40
+23:51:59.860 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@534243e4
+23:51:59.860 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@29006752
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@470a9030
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@66d57c1b
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@27494e46
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@d59970a
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1e411d81
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@53b98ff6
+23:51:59.866 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e6fd0b9
+23:51:59.874 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7fcff1b9
+23:51:59.875 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@697446d4
+23:51:59.876 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@76adb233
+23:51:59.878 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@36074e47
+23:51:59.879 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@36453307
+23:51:59.881 [main]TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7dcc91fd
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+23:51:59.914 [main]DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23:51:59.948 [main]DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+23:51:59.948 [main]DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+23:51:59.948 [main]DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+23:52:00.767 [Forwarding newSession on session null to remote]DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 19204 (auto-detected)
+23:52:00.767 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+23:52:00.767 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+23:52:00.782 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+23:52:00.784 [Forwarding newSession on session null to remote]DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23:52:00.801 [Forwarding newSession on session null to remote]DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 34:6f:24:ff:fe:2d:4d:91 (auto-detected)
+23:52:00.871 [AsyncHttpClient-1-2]DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+23:52:00.871 [AsyncHttpClient-1-2]DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+23:52:00.871 [AsyncHttpClient-1-2]DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20d5245d
+23:52:00.913 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+23:52:00.913 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+23:52:00.913 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+23:52:00.913 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+23:52:00.915 [AsyncHttpClient-1-2]DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+23:52:01.994 [AsyncHttpClient-1-2]DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+23:52:02.248 [main]DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa4a99bf04369d04c
+23:52:02.710 [main]INFO  HomePage - Navigating to: [https://ecommerce-playground.lambdatest.io/]
+23:52:04.101 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/
+23:52:04.153 [main]INFO  HomePage - Validating Title to Have: [Your Store]
+23:52:04.293 [main]INFO  HomePage - Validating: Home Is Equal Home
+23:52:04.357 [main]INFO  HomePage - Validating: Special Is Equal Special
+23:52:04.410 [main]INFO  HomePage - Validating: Hot Is Equal Hot
+23:52:04.468 [main]INFO  HomePage - Validating: Blog Is Equal Blog
+23:52:04.522 [main]INFO  HomePage - Validating: Mega Menu Is Equal Mega Menu
+23:52:04.590 [main]INFO  HomePage - Validating: AddOns Is Equal AddOns
+23:52:04.676 [main]INFO  HomePage - Validating: Featured Is Equal Featured
+23:52:04.795 [main]INFO  HomePage - Validating: My account Is Equal My account
+23:52:04.834 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:52:05.131 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:52:05.317 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:52:05.587 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:52:06.903 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+23:52:07.098 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+23:52:07.288 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]] Is Clickable within [30] Seconds 
+23:52:07.584 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+23:52:08.521 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+23:52:08.579 [main]INFO  TestUtils - Expecting Text [Login] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(1)]]
+23:52:08.718 [main]INFO  TestUtils - Expecting Text [Register] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(2)]]
+23:52:08.843 [main]INFO  TestUtils - Expecting Text [Forgotten Password] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(3)]]
+23:52:09.002 [main]INFO  TestUtils - Expecting Text [My Account] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(4)]]
+23:52:09.402 [main]INFO  TestUtils - Expecting Text [Address Book] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(5)]]
+23:52:09.812 [main]INFO  TestUtils - Expecting Text [Wish List] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(6)]]
+23:52:09.989 [main]INFO  TestUtils - Expecting Text [Order History] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(7)]]
+23:52:10.286 [main]INFO  TestUtils - Expecting Text [Recurring payments] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(9)]]
+23:52:10.428 [main]INFO  TestUtils - Expecting Text [Reward Points] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(10)]]
+23:52:10.580 [main]INFO  TestUtils - Expecting Text [Returns] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(11)]]
+23:52:10.758 [main]INFO  TestUtils - Expecting Text [Transactions] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(12)]]
+23:52:10.879 [main]INFO  TestUtils - Expecting Text [Downloads] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(8)]]
+23:52:11.001 [main]INFO  TestUtils - Expecting Text [Newsletter] from element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [class] .list-group-item:nth-of-type(13)]]
+23:52:11.043 [main]INFO  RegisterPage - Entering Details On Register Menu
+23:52:11.085 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-firstname']]]
+23:52:11.171 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-firstname']]] Text is :[MAHBUB]
+23:52:11.627 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-lastname']]]
+23:52:11.672 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-lastname']]] Text is :[TOM]
+23:52:12.059 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-email']]]
+23:52:12.148 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+23:52:12.928 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-telephone']]]
+23:52:13.199 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-telephone']]] Text is :[+8882319324876921]
+23:52:13.802 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-password']]]
+23:52:13.967 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+23:52:14.751 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-confirm']]]
+23:52:15.053 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-confirm']]] Text is :[1234567889]
+23:52:16.169 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [for='input-agree']]] Is Clickable within [30] Seconds 
+23:52:16.334 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: [for='input-agree']]]
+23:52:16.658 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> css selector: div#content > form[method='post'] input[value='Continue']]]
+23:52:17.841 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:52:18.034 [main]INFO  TestUtils - Waiting For Element [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]] Is Clickable within [30] Seconds 
+23:52:18.267 [main]INFO  TestUtils - Hovering Using JS: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //ul[@class="navbar-nav horizontal"]//li//a[contains(@href,'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')]]]
+23:52:18.372 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:52:18.441 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: //div[@id='widget-navbar-217834']/ul/li[6]/ul//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']//span[@class='title']]]
+23:52:19.120 [main]INFO  HomePage - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+23:52:19.162 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div/div[1]/div[@class='card mb-4']/div[@class='card-body p-4']]]
+23:52:19.566 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div[@class='row']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']]]
+23:52:19.716 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]]
+23:52:20.060 [main]INFO  TestUtils - [[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']/div[@class='row']//a[@href='https://ecommerce-playground.lambdatest.io/index.php?route=account/register']]****** :::href Value Matches The Expected Value Of: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+23:52:20.132 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-email']]]
+23:52:20.315 [main]INFO  TestUtils - Waiting for [60] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-password']]]
+23:52:20.566 [main]INFO  TestUtils - Waiting for [30] seconds on Visibility of [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+23:52:20.705 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-email']]]
+23:52:21.090 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-email']]] Text is :[mahbubasr091@gmail.com]
+23:52:22.028 [main]INFO  TestUtils - Cleared text for : [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-password']]]
+23:52:22.333 [main]INFO  TestUtils - Entering text for element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//input[@id='input-password']]] Text is :[1234567889]
+23:52:22.544 [main]INFO  TestUtils - Clicking On Element: [[[ChromeDriver: chrome on windows (e0622488766c159338d903163a5952fe)] -> xpath: /html//div[@id='content']//form[@action='https://ecommerce-playground.lambdatest.io/index.php?route=account/login']/input[@value='Login']]]
+23:52:22.912 [main]INFO  TestUtils - Test Paused : [1] Seconds
+23:52:23.931 [main]INFO  TestUtils - Validating URL: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+23:52:25.125 [main]INFO  CustomUtils - Click on [My Account] from User Menu
+23:52:25.785 [main]INFO  CustomUtils - Click on [Edit Account] from User Menu
+23:52:27.655 [main]INFO  CustomUtils - Click on [Password] from User Menu
+23:52:28.001 [main]INFO  CustomUtils - Click on [Address Book] from User Menu
+23:52:28.503 [main]INFO  CustomUtils - Click on [Wish List] from User Menu
+23:52:28.824 [main]INFO  CustomUtils - Click on [Notification] from User Menu
+23:52:29.201 [main]INFO  CustomUtils - Click on [Order History] from User Menu
+23:52:29.613 [main]INFO  CustomUtils - Click on [Downloads] from User Menu
+23:52:30.083 [main]INFO  CustomUtils - Click on [Recurring payments] from User Menu
+23:52:30.620 [main]INFO  CustomUtils - Click on [Reward Points] from User Menu
+23:52:31.425 [main]INFO  CustomUtils - Click on [Returns] from User Menu
+23:52:31.951 [main]INFO  CustomUtils - Click on [Transactions] from User Menu
+23:52:33.232 [main]INFO  CustomUtils - Click on [Newsletter] from User Menu
+23:52:35.114 [main]INFO  CustomUtils - Click on [Logout] from User Menu
+23:52:35.855 [main]INFO  TestUtils - Test Paused : [2] Seconds
+23:52:37.925 [AsyncHttpClient-1-4]TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+23:52:37.958 [AsyncHttpClient-1-4]TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+23:52:37.958 [AsyncHttpClient-1-4]TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=2
