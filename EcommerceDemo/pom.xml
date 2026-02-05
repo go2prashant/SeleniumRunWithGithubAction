@@ -55,6 +55,20 @@
       <artifactId>log4j-core</artifactId>
       <version>${log4j.version}</version>
     </dependency>
+
+    <!-- SLF4J with Log4j binding to fix: "SLF4J: Failed to load class" warning -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j-impl</artifactId>
+      <version>${log4j.version}</version>
+    </dependency>
+    
+    <!-- Netty (explicit version to reduce Java module warnings) -->
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.104.Final</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -77,6 +91,8 @@
           <suiteXmlFiles>
             <suiteXmlFile>testSuite.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <!-- Suppress Netty Java module reflection warnings -->
+          <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED</argLine>
         </configuration>
       </plugin>
     </plugins>
