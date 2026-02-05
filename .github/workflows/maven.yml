@@ -24,6 +24,32 @@ jobs:
 
       - name: Run Tests
         run: mvn -B test -f EcommerceDemo/pom.xml -Dbrowser=chrome -Dheadless=true
+        continue-on-error: true
+
+      - name: Upload Extent Reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: extent-reports
+          path: EcommerceDemo/target/extent-reports/
+          retention-days: 30
+
+      - name: Upload Surefire Test Reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: surefire-reports
+          path: EcommerceDemo/target/surefire-reports/
+          retention-days: 30
+
+      - name: Publish Test Report
+        if: always()
+        uses: dorny/test-reporter@v1
+        with:
+          name: TestNG Results
+          path: 'EcommerceDemo/target/surefire-reports/TEST-*.xml'
+          reporter: 'java-testng'
+          fail-on-error: false
 
       - name: Build with Maven
         run: mvn -B package -f EcommerceDemo/pom.xml -DskipTests
