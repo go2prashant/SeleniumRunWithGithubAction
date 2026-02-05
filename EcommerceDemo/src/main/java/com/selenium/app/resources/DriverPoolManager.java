@@ -35,14 +35,20 @@ public class DriverPoolManager {
     }
 
     private void createChromeDriver() {
-                        // TODO: Created this Patch for the issue of *403* with Chrome 111 Version. Needs To be deleted Once It's been resolved.
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--headless=new");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--window-size=1920,1080");
         driver = new ChromeDriver(options);
     }
 
     public void stopDriver() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
     }
 
     private void setUpFullScreen() {

@@ -75,6 +75,10 @@ public class TestUtils {
      *
      */
     public void waitForElementIsClickable(WebElement webElement, long seconds) {
+        if (driver == null) {
+            log.error("WebDriver is null! Cannot wait for element clickability.");
+            throw new IllegalArgumentException("Input must be set - WebDriver is null");
+        }
         log.info("Waiting For Element [{}] Is Clickable within [{}] Seconds ", webElement, seconds);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
         wait.until(ExpectedConditions.elementToBeClickable(webElement));
@@ -86,6 +90,10 @@ public class TestUtils {
      * @param seconds
      */
     public void waitForElementVisibility(WebElement webElement, long seconds) {
+        if (driver == null) {
+            log.error("WebDriver is null! Cannot wait for element visibility.");
+            throw new IllegalArgumentException("Input must be set - WebDriver is null");
+        }
         log.info("Waiting for [{}] seconds on Visibility of [{}]", seconds, webElement);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
         wait.until(ExpectedConditions.visibilityOf(webElement));
